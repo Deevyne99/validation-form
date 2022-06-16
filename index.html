@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration form</title>
+</head>
+<body>
+    <main class="container">
+        <section>
+            <article>
+                <h1>Learn to code by watching others</h1>
+                <p>see how experienced developres solve problem in real-time. watching scripted tutorials is great, but understanding hoe developers think is invaluabel.</p>
+            </article>
+            <div class="form-content">
+                <button class="btn"><strong>Try it free 7 days then</strong> 20$/mo.thereafter </button>
+                <form action="" id="form" class="form">
+                    <div class="form-control ">
+                        <input type="text" placeholder="First Name" id="first-name">
+                        <img src="/images/icon-error.svg" alt="">
+                        <small>Error message required please</small>
+                    </div>
+                    
+                    <div class="form-control">
+                        <input type="text" placeholder="Last Name" id="last-name">
+                        <img src="/images/icon-error.svg" alt="">
+                        <small>Error message</small>
+                    </div>
+                    
+                    <div class="form-control">
+                        <input type="text" placeholder="Email" id="email"  oninvalid="checkInputs(this)"  oninput="checkInputs(this)">
+                        <img src="/images/icon-error.svg" alt="">
+                        <small>Error message</small>
+                    </div>
+                    
+                    <div class="form-control">
+                        <input type="text" placeholder="Password" id="password">
+                        <img src="/images/icon-error.svg" alt="">
+                        <small>Error message</small>
+                    </div>
+
+                    <button class="btn-free">claim your free trial</button>
+                    <p class="link">By clicking the button, you agreeing to our <a href="">Terms and Services</a> </p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
