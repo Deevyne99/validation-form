@@ -82,6 +82,7 @@ article p{
     margin: 0 auto;
     margin-bottom: 18px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 .form-content .btn:active{
     border: 1px solid hsl(248, 32%, 49%);
@@ -161,6 +162,7 @@ input ::placeholder{
     text-transform: uppercase;
     letter-spacing: 1px;
     outline:none;
+    cursor:pointer;
 }
 
 .btn-free:active{
